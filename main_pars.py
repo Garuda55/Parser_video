@@ -41,7 +41,7 @@ def download_content(links, names, headers):
 # ============================== Указываем пути куда сохраняем скачанные файлы. Названия папок - подставляем переменные
           # В том числе, заранее указываем путь к mp3 файлу, который ещё не сформирован ============================= #
           present_path = f"/.../{directory_name[count-1]}/video.mp4"
-          sound_path = f"/home/dima/Projects/pythonProject/Front_learn/{directory_name[count-1]}/sound.mp4"
+          sound_path = f"/.../{directory_name[count-1]}/sound.mp4"
           audio_mp3_path = f"/.../{directory_name[count-1]}/audio.mp3"
 
 # ================================ Формируем исходные (скачанные) файлы ================================ #
